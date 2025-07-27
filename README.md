@@ -3,7 +3,7 @@ ORDER TEH NUSANTARA INDONESIA
 
 Aplikasi sederhana berbasis CLI (Comammand Line Interface) untuk pesan Teh. Dibuat dengan Python menggunakan konsep Object oriented Programming (OOP)
 
-LINK JIKA INGIN MENCOBA : 
+LINK JIKA INGIN MENCOBA : https://colab.research.google.com/drive/1RF1bAgvrOmZkWiigfu-DIjcaEl3JdMoV?usp=sharing
 
 # FITUR: 
 1. Pilih Teh dari menu
