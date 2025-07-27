@@ -1,4 +1,4 @@
-# TUGAS_ALGORITMA_PEMOGRAMAN_PERTEMUSAN_14
+# TUGAS_ALGORITMA_PEMOGRAMAN_PERTEMUAN_14
 ORDER TEH NUSANTARA INDONESIA
 
 Aplikasi sederhana berbasis CLI (Comammand Line Interface) untuk pesan Teh. Dibuat dengan Python menggunakan konsep Object oriented Programming (OOP)
