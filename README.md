@@ -2,7 +2,7 @@
 
 ## ORDER TEH APP
 
-Aplikasi sederhana berbasis CLI (Command Line Inyerface) untuk pesan teh.
+Aplikasi sederhana berbasis CLI (Command Line Interface) untuk pesan teh.
 Dibuat dengan Python menggunakan konsep Object-Oriented Programming (OOP)
 
 LINK JIKA INGIN MENCOBA: https://colab.research.google.com/drive/11RYRl9yb2Irk0CFTX60tPRy9D1yZhi8y?usp=sharing
