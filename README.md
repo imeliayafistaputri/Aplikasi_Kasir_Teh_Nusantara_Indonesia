@@ -1,61 +1,69 @@
 # TUGAS_ALGORITMA_PEMOGRAMAN_PERTEMUAN_14
-ORDER TEH NUSANTARA INDONESIA
 
-Aplikasi sederhana berbasis CLI (Comammand Line Interface) untuk pesan Teh. Dibuat dengan Python menggunakan konsep Object oriented Programming (OOP)
+## ORDER TEH APP
 
-LINK JIKA INGIN MENCOBA : https://colab.research.google.com/drive/1RF1bAgvrOmZkWiigfu-DIjcaEl3JdMoV?usp=sharing
+Aplikasi sederhana berbasis CLI (Command Line Inyerface) untuk pesan teh.
+Dibuat dengan Python menggunakan konsep Object-Oriented Programming (OOP)
 
-# FITUR: 
-1. Pilih Teh dari menu
-2. Tambah Teh ke dalam pesanan
-3. Lihat ringkasan pesanan
-4. Checkout dengan konfirmasi
-5. Pesan dan tampilan menggunakan bahasa santai
+## FITUR
+- Pilih Teh dari menu
+- Tambah Teh ke daftar menu
+- Lihat ringkasan pesanan
+- Checkout dengan konfirmasi
+- Pesa dan tampilan menggunakan bahasa yang santai
 
-# CARA MENGERJAKAN: 
-1. Pastikan sudah install Python minimal versi 3x
-2. Clone repositori ini atau download file py nya
-3. Jalankan lewat terminal atau CMD
+## CARA MENGERJAKAN
 
-kode: 
+- Pastikan sudah install Python minimal versi 3x
+- Clone repositori ini atau download file py nya
+- Jalankan lewat terminal atau CMD
 
-# MENU TEH NUSANTARA: 
-1. TEH HIJAU - Rp.7000
-2. TEH MELATI - Rp.7000
-3. TEH OOLONG - Rp.8000
-4. TEH BUNGA ROSELLA - Rp.10.000
-5. TEH GURAH - Rp.10.000
+KODE: pytontehorder.py
 
-# STRUTUR KODE
+## MENU TEH NUSANTARA
 
-Struktur Kode: 
-* Teh class
+1. Teh Hijau - Rp.7000
+2. Teh Melati - Rp.7000
+3. Teh Oolong - Rp.8000
+4. Teh Bunga Rosella - Rp.10000
+5. Teh Gurah - Rp.10000
+
+## STRUKTUR KODE
+
+- Teh class
 
 Menyimpan data nama dan harga Teh
-* order class
-  1. add_item(): Tambah teh kedalam pesanan
-  2. show_order(): Menunjukan daftar pesanan sama total harga
-  3. checkout(); konfirmasi beli dan reset pesanan
-  4. total(): Hitung total harga
-  * main()function
- 
 
-  # CONTOH SAAT DIPAKAI
+-order class
 
-  ---MENU TEH NUSANTARA---
+1. add-item(): tambah teh kepesanan
+2. show_order(): menunjukan daftar pesanan sama total harga
+3. checkout(): konfirmasi beli dan reset pesanan
+4. total(): hitung total harga pesanan
 
-  1. Teh Hijau - Rp.7000 (stock: 10)
-  2. Teh Melati - Rp.7000 (stock: 7)
-  3. Teh Oolong - Rp.8000 (stock: 10)
-  4. Teh Bunga Rosella - Rp.10.000 (stock: 12)
-  5. Teh Gurah - Rp.10.000 (stock: 15)
-  6. Lihat keranjang pesanan
-  7. Checkout
-  8. Laporan penjualan
-  9. backup Data
-  10. Keluar Pilih no menu: 10 Terimakasih Kakak
+-main() function
 
-  ketika checkout tapi belum ada pesanan, akan muncul
+teh_inventory/
+|--teh_nusantara.py           # file utama program
+|--inventory.json             # Data menu & stok (otomatis dibuat)
+|--backup_inventory.json      # Backup data
+|--README.md                  # Penjelasan data
 
+Tempat program jalan, menampilkan menu, dan menerima input dari pengguna
 
+## CONTOH SAAT DIGUNAKAN
 
+---Menu Teh Nusantara---
+1. Teh Hijau - Rp7000 (stock: 10)
+2. Teh Melati - Rp7000 (stock: 7)
+3. Teh Oolong - Rp8000 (stock: 10)
+4. Teh Bunga Rosella - Rp10000 (stock: 12)
+5. Teh Gurah - Rp10000 (stock: 15)
+6. Lihat keranjang pesanan
+7. Checkout
+8. Laporan Penjualan
+9. Backup data
+10. Keluar
+
+ketika checkout belum ada pesanan, akan muncul:
+belum ada pesanan nih ka
